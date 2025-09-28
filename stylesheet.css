@@ -1,0 +1,320 @@
+body{
+    background-color: white;
+    color: #212842;
+    margin:0;
+    margin-top: 0;
+    font-family: 'Source Sans Pro';
+    font-size: 20px ;
+    
+    
+    
+}
+
+nav{
+    background-color: transparent;
+    border-bottom: 1px solid #212842;
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 10px;
+  
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin:auto;
+    margin-left: 10px;
+    height: 60px;
+    color: aqua;
+}
+
+.navitems{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top:15px;
+    color: aqua;
+    
+    
+}
+
+.navitems a:hover{
+    color:#D0E2F2;
+}
+
+.navitems a::after{
+    display: inline-block;
+    color:white;
+    font-weight: bold;
+}
+
+.navitems a:active{
+    color:chocolate;
+}
+
+#hi-section{
+    color:#212842;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    padding-top: 10px;
+    align-self: center;
+    font-size: 50px;
+    margin: auto;
+    
+    
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+ 
+
+}
+
+#intro-section{
+   
+   display: flex;
+   align-items: center;
+   align-content: space-evenly;
+
+    margin:0;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    margin-top: 0;
+    padding-top: 0;
+
+   
+
+   
+
+    
+
+
+}
+
+#intro-textbox{
+    
+    width: 80%;
+    margin:0;
+
+    padding-right: 80px;
+    
+    
+    
+  
+
+
+}
+
+
+
+#intro-picture img{
+   
+    border-radius: 100%; 
+    border-width: 2px;  
+    border-style: solid;
+    width: 200px; 
+    
+  
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+    object-fit: cover;
+    
+    /* 
+    margin-left: 70px;
+    margin-right: 50px; */
+}
+
+.title{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+
+
+}
+
+/* code for how to get text in between two horizonal lines form geeksforgeeks */
+.title:before,
+.title:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+
+}
+
+.project img{
+    width: 250px;
+    
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+   
+    margin: 20px;
+}
+
+.gitbutton{
+    color: #212842;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #212842;
+    
+}
+
+.gitbutton:hover{
+    color:white;
+    background-color: #212842;
+}
+
+
+
+
+
+.project{
+    border: 1px solid rgba(138, 138, 138, 0.5);
+    border-radius: 15px;
+    height: 100%;
+  
+    justify-content: space-around;
+    margin:20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow:auto;
+    padding: 15px;
+
+    
+    padding-right: 30px;
+    padding-left: 30px;
+
+    
+    
+    
+
+    display:flex;
+    align-items: center;
+    
+}
+
+#about-content{
+    margin:20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding:10px;
+
+
+    border: 1px solid rgb(138,138,138,0.5);
+    border-radius: 15px;
+}
+
+#linkedin-section{
+   display: flex;
+   align-items: center;
+   align-content: space-evenly;
+   justify-content: center;
+
+    margin:20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#linkedin-section img{
+    width: 300px;
+    height: 300px;
+}
+
+#linkedin-section a:hover{
+    filter:contrast(50%);
+}
+
+#linkedin{
+    padding: 50px;
+    padding-right: 60px;
+    text-align: center;
+
+}
+
+#resume{
+    padding: 50px;
+    padding-left: 60px;
+    text-align: center;
+
+}
+
+#github{
+    padding: 50px;
+    padding-left: 60px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 830px) {
+  body {
+
+    font-size:16px
+  }
+  #hi-section{
+    color:#212842;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    padding-top: 10px;
+    align-self: center;
+    font-size: 23.7px;
+    margin: auto;
+    
+    
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+ 
+
+}
+#linkedin-section a:hover{
+    filter:contrast(50%);
+    max-width: 60%;
+}
+
+#linkedin-section img{
+    width: 100px;
+    height: 100px;
+
+}
+.project img{
+    width: 150px;
+}
+
+.project{
+    font-size: 13px;
+}
+#intro-picture img{
+    width:200px;
+    height:200px;
+}
+#intro-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#intro-picture img{
+   
+     
+    width: 150px; 
+    height: 150px;
+   
+}
+
+
+}
